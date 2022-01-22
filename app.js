@@ -69,3 +69,32 @@ fetch('https://api.github.com/users/netsujr')
 //make sure to pass the same string (start === end)
 
 console.table('array of objects, must have same properties');
+
+// const USER = 'netsujr';
+// const EMAIL = 'renatonato_jr@hotmail.com';
+// const github = require('octokat')({ token: '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' });
+
+// github.fromUrl(`https://api.github.com/users/${USER}/events`)
+//   .fetch()
+//   .then(events => {
+//     let lastCommit;
+
+//     events.some(event => {
+//       return event.type === 'PushEvent' && event.payload.commits.reverse().some(commit => {
+//         if (commit.author.email === EMAIL) {
+//           lastCommit = {
+//             repo: event.repo.name,
+//             sha: commit.sha,
+//             time: new Date(event.createdAt),
+//             message: commit.message,
+//             url: commit.url
+//           };
+//           return true;
+//         }
+//         return false;
+//       });
+//     });
+//     return lastCommit;
+//   });
+
+//   console.log(lastCommit);
