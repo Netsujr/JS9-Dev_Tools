@@ -72,7 +72,7 @@ console.table('array of objects, must have same properties');
 
 // const USER = 'netsujr';
 // const EMAIL = 'renatonato_jr@hotmail.com';
-// const github = require('octokat')({ token: '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' });
+// const github = require('octokat')({ token: '**** });
 
 // github.fromUrl(`https://api.github.com/users/${USER}/events`)
 //   .fetch()
